@@ -21,6 +21,11 @@ text-align: center;
     margin-bottom: 2rem;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* !HEADING */
 h1 {
@@ -34,3 +39,32 @@ p {
     font-size: .8rem;
 }
 
+
+/* !MAIN */
+.box {
+    width: calc(100% / 3 - 40px / 3);
+    text-align: left;
+    color: white;
+    background-color: #0F0E17;
+}
+
+/* *Box */
+img{
+    height: 5rem;
+    float: left;
+    margin-right: .3rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: .4rem;
+}
+
+h3 {
+    font-size: .8rem;
+    margin: .3rem;
+}
+
+.email {
+    color: #5FC2EB;
+}
