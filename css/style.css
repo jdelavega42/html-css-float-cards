@@ -6,6 +6,7 @@
     border: 1px solid black;
 }
 
+
 /* !COMMON */
 body {
     font-family: 'Fredoka', sans-serif;
@@ -17,12 +18,19 @@ text-align: center;
 }
 
 .container > * {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
+
 
 /* !HEADING */
 h1 {
     color: #E53170;
     font-size: 2rem;
+}
+
+
+/* !SECTION */
+p {
+    font-size: .8rem;
 }
 
